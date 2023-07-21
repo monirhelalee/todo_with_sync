@@ -75,7 +75,7 @@ class SignInPage extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(
-                  height: width <= 420 ? width * .35 : 100,
+                  height: width <= 420 ? width * .45 : 100,
                 ),
                 spaceBetween,
                 spaceBetween,

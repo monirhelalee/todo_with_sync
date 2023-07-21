@@ -51,6 +51,7 @@ class ApiClient {
     final accessToken = await SignInViewModel().getToken();
 
     final headers = <String, String>{
+      'Abp.TenantId': '10',
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     };
